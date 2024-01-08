@@ -1,0 +1,64 @@
+1] In the provided elements:
+   Values:
+   'hello' (string)
+   -87.8 (float)
+   6 (integer)
+
+   Expressions:
+   *
+   -
+   /
+   +
+
+2] a string is a type of data representing text, while a variable is a symbolic name associated with a value or data storage location 
+   in a program. A variable can store different types of data, including strings, and its value can change during the execution of a program.
+   
+3] Descriptions of three different data types:
+  1.Integer (int):Represents whole numbers without any decimal points.Examples: -5, 0, 42.
+  2.Float (float):Represents numbers with decimal points or in exponential form.Examples: -3.14, 2.71828, 1.0e5.
+  3.String (str):Represents sequences of characters (text).Examples: "Hello, World!", 'Python', "123".
+  
+4] An expression is made up of one or more operands and operators.operands can be variables, values, or other expressions, and 
+   operators are symbols or keywords that perform operations on the operands.
+   For example, in the expression 2 + 3, the operands are the numbers 2 and 3, and the operator is the addition symbol +.
+   
+5] An expression is a combination of values, variables, operators, and function calls that can be evaluated to produce a result.It 
+   always returns a value.Examples: 2 + 3, x * y, "Hello, " + name.
+   A statement is a complete line of code that performs a specific action. It is a standalone unit of execution.It doesn't necessarily 
+   return a value.Examples:conditional statement (if x > 0: print("Positive")).
+   In this examle,spam = 10, it is an assignment statement where the variable spam is assigned the value 10. This line of code doesn't 
+   produce a value on its own.its purpose is to assign a value to a variable.
+   
+6] In the first line, you set the value of the variable bacon to 22. However, in the second line (bacon + 1), you are performing an 
+   operation (bacon + 1), but you're not assigning the result back to the variable bacon or printing it. Therefore, the value of bacon 
+   remains unchanged.
+   
+7] The values of the following two terms will be -
+   1.'spam' + 'spamspam':This involves string concatenation, so it combines the two strings.
+      Result: 'spamspamspam'
+
+   2.'spam' * 3:This involves string repetition, where the string 'spam' is repeated three times.
+      Result: 'spamspamspam'
+      
+8] variable names need to follow certain rules. Here are common rules for variable names:
+   1.Variable names must start with a letter (a-z, A-Z) or an underscore (_).
+   2.The rest of the variable name can contain letters, numbers, and underscores.
+   3.Variable names are case-sensitive.
+   4.Variable names cannot be reserved keywords used by the programming language.
+   Now, considering these rules:
+   -eggs is a valid variable name because it starts with a letter.
+   -100 is invalid because it starts with a number, violating the first rule.
+   
+9] In Python, you can use the following three functions to get the integer, floating-point number, or string version of a value:
+   1.int(): This function can be used to convert a value to an integer.Example:x = int("42")
+   2.float(): This function can be used to convert a value to a floating-point number.Example:y = float("3.14")
+   3.str(): This function can be used to convert a value to a string.Example:z = str(123)
+   
+10] The expression causes an error because you are trying to concatenate a string ('I have eaten ') with an integer (99) directly, 
+    and then you are trying to concatenate the result with another string (' burritos.'). In Python, you cannot concatenate different 
+    data types without explicit conversion.
+    To fix it, you need to convert the integer 99 to a string before concatenating it. You can do this using the str() function. 
+    'I have eaten ' + str(99) + ' burritos.'
+
+
+
